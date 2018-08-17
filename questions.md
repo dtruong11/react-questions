@@ -3,7 +3,11 @@ What is a React Component? Give an Example.
 
 <details>
   <summary>Answer here</summary>
+<<<<<<< HEAD
+
+=======
   A React Component is a function that returns a single react element, a repeatable part of a website. Examples might include a form, navbar, list, list item.
+>>>>>>> cb13c658017459c06b184cc7928c41ab9d1cb637
 </details>
 <br>
 What are the types of React Components and what are pros and cons of each?
@@ -25,6 +29,7 @@ What is the relationship between components in React?
 
 <details>
   <summary>Answer here</summary>
+  parent-child relationship tree like relationship where props are passed from the parents and used in the components
 
 </details>
 
@@ -32,6 +37,9 @@ When does a component render?
 
 <details>
   <summary>Answer here</summary>
+  1. When the state changes
+	1. Parent's props changes
+	1. Component mounts the first time(when the page loads)
 
 </details>
 
@@ -39,6 +47,11 @@ Describe the concept of "state" and the pros and cons of using it.
 
 <details>
   <summary>Answer here</summary>
+  1. State are objects that stores the information about a component.
+  1. States must be kept simple. States are the objects which determine components rendering and behavior.
+  1. accessed by this.state()
+  1. pros - powerful, render the components easily with state
+  1. cons - can be heavy
 
 </details>
 
