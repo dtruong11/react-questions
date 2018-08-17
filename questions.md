@@ -27,6 +27,8 @@ What is the relationship between components in React?
   parent-child relationship tree like relationship where props are passed from the parents and used in the components
 
 </details>
+<br>
+
 
 When does a component render?
 
@@ -37,6 +39,7 @@ When does a component render?
 	1. Component mounts the first time(when the page loads)
 
 </details>
+<br>
 
 Describe the concept of "state" and the pros and cons of using it.
 
@@ -49,24 +52,29 @@ Describe the concept of "state" and the pros and cons of using it.
   1. cons - can be heavy
 
 </details>
+<br>
 
 What are the differences between html and jsx notation?
 
 <details>
   <summary>Answer here</summary>
-
+  JSX (Java Script XML) allows one to inject javascript into html notation and is used by React to generate more dynamic html. HTML is similar, but does not allow javascript outside of script tags.
 </details>
+<br>
 
 Explain the most commonly used react lifecycle methods and when we would use them.
 
 <details>
   <summary>Answer here</summary>
-
+  componendDidMount() - Commonly used to load data with an ajax call. May set state in this method.
+  componendWillReceiveProps() - Used to trigger state changes based on changes to particular props. May set state.
 </details>
+<br>
 
 What is the difference between using React and not?
 
 <details>
   <summary>Answer here</summary>
-
+  React is a stronger tool when it comes to handeling state; it has an entire lifecycle system that allows your code to be more dynamic and 'react' to changes more efficiently. However, writing your code with a typical MCV model is also efficient depending on how dynamic your pages are.
 </details>
+<br>
