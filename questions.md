@@ -3,11 +3,7 @@ What is a React Component? Give an Example.
 
 <details>
   <summary>Answer here</summary>
-<<<<<<< HEAD
-
-=======
   A React Component is a function that returns a single react element, a repeatable part of a website. Examples might include a form, navbar, list, list item.
->>>>>>> cb13c658017459c06b184cc7928c41ab9d1cb637
 </details>
 <br>
 What are the types of React Components and what are pros and cons of each?
