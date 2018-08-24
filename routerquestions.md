@@ -2,7 +2,7 @@
 <h2> React Router Questions </h2>
 <br>
 
-What is the difference between using Route components exclusively versus Route components within a Switch statement? How might you use a
+What is the difference between using Route components exclusively versus Route components within a Switch statement? 
 <details>
   <summary>Answer here</summary>
   Using route components exclusively causes all routes that match the specified path to render whereas within a switch statement only the first route to match the path loads. Example would be route with path /profiles and route with path /:user. Given a path of /profiles using routes exclusively  both would render whereas within a switch only the first would load.
