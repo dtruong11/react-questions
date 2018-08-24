@@ -2,7 +2,7 @@
 <h2> React Router Questions </h2>
 <br>
 
-What is the difference between using Route components exclusively versus Route components within a Switch statement? 
+What is the difference between using Route components exclusively versus Route components within a Switch statement?
 <details>
   <summary>Answer here</summary>
   Using route components exclusively causes all routes that match the specified path to render whereas within a switch statement only the first route to match the path loads. Example would be route with path /profiles and route with path /:user. Given a path of /profiles using routes exclusively  both would render whereas within a switch only the first would load.
@@ -23,13 +23,6 @@ What is a technique to protect a particular route, where would our verify functi
 </details>
 <br>
 
-
-Discuss how we can use higher order components for authorization of particular routes. What are the benefits of making such a higher order component.
-<details>
-  <summary>Answer here</summary>
-  We can create a "helper" component that takes the same props as a Route component. Within the higher order component we apply the props to a Route component but add authorization within the render function. The benefits would be the ability to reuse the helper component across your project, instead of applying authorization to each route component
-</details>
-<br>
 
 Discuss how we can use higher order components for authorization of particular routes. What are the benefits of making such a higher order component.
 <details>
